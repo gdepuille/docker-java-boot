@@ -1,0 +1,5 @@
+# Ignore file to not include in build.
+.git/
+Makefile
+LICENSE
+README.md
