@@ -1,4 +1,4 @@
-FROM gdepuille/common:0.1.0
+FROM gdepuille/docker-common
 MAINTAINER Gregory DEPUILLE <gregory.depuille@gmail.com>
 
 # Le monitoring de Spring Boot sera exposé sur le port 81 
