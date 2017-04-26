@@ -11,8 +11,8 @@ WORKDIR /app
 ENV JAVA_VERSION 8
 
 # Install Java
-RUN apk --update add openjdk${JAVA_VERSION}-jre && \
-    rm -rf /var/cache/apk/*
+RUN apk --update add openjdk${JAVA_VERSION}-jre \
+        && rm -rf /var/cache/apk/*
 
 # Define default command
 CMD ["java","-Djava.security.egd=file:/dev/./urandom", "-version"]
