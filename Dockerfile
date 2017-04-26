@@ -1,5 +1,5 @@
 FROM gdepuille/docker-common
-MAINTAINER Gregory DEPUILLE <gregory.depuille@gmail.com>
+LABEL maintainer "Gregory DEPUILLE <gregory.depuille@gmail.com>"
 
 # Le monitoring de Spring Boot sera exposé sur le port 81 
 EXPOSE 81
